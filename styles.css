@@ -1,0 +1,157 @@
+body {
+font-family: Arial, sans-serif;
+margin: o;
+padding: 0;
+line-height: 1.6;
+background-color: #545357;
+background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+color: #1e1111;
+}
+
+header {
+background: #de6161;
+background: -webkit-linear-gradient(to right, #2657eb, #de6161);  
+background: linear-gradient(to right, #2657eb, #de6161); 
+color: #0b192d;;
+padding: 20px 0;
+text-align: center;
+border-radius: 4px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #141111;
+    text-decoration:navy;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    \end{code}
+}
+
+nav ul li a:hover {
+    text-decoration:underline;
+    \end{code}
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+    gradient(135deg, #9db9eb, #f2c6f2);
+    color: #1e1111;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(10, 10, 216);
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1;
+    visibility: visible;
+    \end{code}
+}  
+   
+
+section.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    \end{code}
+}
+
+h2 {
+    color: #021b79;
+    font-size: 2em;
+    margin-bottom: 10px;
+    \end{code}
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #5082f5;
+    border-radius: 5px;
+    \end{code}
+}
+
+blockquote {
+    border-left: 4px solid #35424a;
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+    background: #f9f9f9;
+    color: #e81212;
+    \end{code}
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #5cd1e3;
+    border-radius: 5px;
+    \end{code}
+}
+
+label {
+     margin: 10px 0 5px;
+    font-weight: bold;
+    color: #30383d;
+    \end{code}
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #d31919;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    \end{code}
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #35424a;
+    color: hsl(204, 7%, 86%);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    \end{code}
+}
+
+button:hover {
+    background: #2c3e50;
+    \end{code}
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #71c2f5;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    \end{code}
+}

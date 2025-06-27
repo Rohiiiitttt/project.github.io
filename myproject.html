@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit kumar Patel - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rohit Kumar Patel</h1>
+        <p>Student</p>
+        <nav>
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#about">About Me</a> </li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="profile">
+        <h2>Profile</h2>
+        <p> I'm Rohit Kumar Patel is a tech enthusiast from Nepal, born on July 24, 2006. Currently pursuing a Diploma in Computer Science, I have a strong foundation in Software Enginnering and aims to become  skilled cybersecurity enginner in future.</p>
+    </section>
+    <div>
+    <section id="about">
+        <h2>About Me</h2>
+        <p> Contact No.: +977-9815256580, +91-9798158857 </p>
+        <p>Email: patel357rohit@gmail.com</p>
+        <p>Address: Birgunj,Radhemai-Nepal</p>
+        <p>GitHub: <a href="https://github.com/Rohiiiitttt" target="_blank">Rohiiiitttt</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/rohit-kumar-patel-0b1a6b1b2/" target="_blank">Rohit Kumar Patel</a></p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JAVASCRIPT</li>
+            <li>MICROSOFT WORD</li>
+            <li>MICROSOFT EXCEL</li>
+            <li>JAVA</li>
+            <li>CPP</li>
+        </ul>
+    </section>
+    <section id="project">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Cinelist</h3>
+            <p>Its a web page where we make list of movies and after watch that movies we can make it watched by checking.  </p>
+            <a href="https://github.com/Rohiiiitttt/cinelist.github.io" target="_blank">View on github</a>
+        </div>
+    </section>
+    <section id="testimonials">
+            <h2>Testimonials</h2>
+            <blockquote>
+                <p>"Dedicated leaner with a strong passion!"-Rohit Kumar Patel</p>
+            </blockquote>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="ContactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name"name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message"name="message"required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy;2024 Rohit.All rights reserved.</p>
+    </footer>
+    <script>
+        document.getElementById('contactForm') .addEventListener('submit', function(event) {
+            enent.preventDefault();
+            alert('Thank you for your message, ' + document.getElementById('name').value +'!');
+        })
+    </script>
+</body>
+</html>
